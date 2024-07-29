@@ -1,17 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+    --blue-color: rgb(49, 49, 124);
+}
+
 * {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
     margin: 0;
     padding: 0;
 }
 
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.global-icon {
+    background-color: var(--blue-color);
+    margin: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .textarea-content {
-    border: 1px solid red;
+    border: 1px solid var(--blue-color);
     width: 500px;
     height: 400px;
     margin: 2rem;
 }
 
+.textarea-title {
+    border: 1px solid var(--blue-color);
+    height: 25px;
+    margin: 4px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-x {
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    margin: 2px;
+    padding-left: 3.6px;
+    padding-right: 3px;
+}
+
+.fa-square {
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    margin: 2px;
+    padding-left: 3px;
+    padding-right: 3.3px;
+}
+
+.minimizar {
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    margin: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.textarea-title > h3 {
+    margin-left: 23px;
+}
+
 .buttons-content {
-    border: 1px solid red;
+    border: 1px solid var(--blue-color);
     width: 500px;
     height: 70px;
     margin: 2rem;
@@ -19,6 +84,14 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+}
+
+#text-input {
+    margin: 0.5rem;
+    width: 480px;
+    height: 340px;
+    border-style: dashed;
+    resize: none;
 }
 
 .buttons-content > button {

@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" href="styles/global.css">
     <script src="js/main.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/81f898d6fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -14,10 +16,20 @@
             <h1>Decodificador de Texto</h1>
         </div>
     </header>
-    <main>
+    <main class="main-container">
         <section>
             <div class="textarea-content">
-                <textarea name="" id=""></textarea>
+                <div class="textarea-title">
+                    <div class="global-icon"></div>
+                    <h3>Text Area</h3>
+
+                    <div class="icons">
+                        <p class="minimizar">_</p>
+                        <i class="fa-thin fa-square"></i>
+                        <i class="fa-thin fa-x"></i>
+                    </div>
+                </div>
+                <textarea name="input" id="text-input" placeholder="Insira o texto aqui..."></textarea>
             </div>
         </section>
 
