@@ -1,22 +1,26 @@
 .main-container {
     width: 90%;
     margin: 0 auto;
-    
     display: flex;
     gap: 5rem;
     justify-content: center;
+
+    position: relative;
+    z-index: 1;
 }  
 
 .textarea-content {
     border: 2px solid var(--blue-color);
     box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
+    background-color: white;
     width: 500px;
     height: 490px;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .textarea-title {
     border: 2px solid var(--blue-color);
+    background-color: white;
     height: 25px;
     margin: 4px;
 
@@ -25,7 +29,7 @@
 }
 
 .textarea-title > h3 {
-    margin-left: 23px;
+    margin-left: 30px;
 }
 
 .textarea-input {
@@ -60,11 +64,24 @@
 
 
 .buttons-content > button {
-    border-style: solid 5px;
+    border: 2px solid rgb(29, 29, 29);
+    box-shadow: inset -4px -4px #adafbc;
     cursor: pointer;
-    width: 120px;
+    width: 160px;
     height: 40px;
     margin: 1rem;
+    
+    font-size: 17px;
+}
+
+#selected {
+    background-color: var(--blue-color);
+    color: white;
+}
+
+.buttons-content > button:hover {
+    background-color: rgb(213, 213, 255);
+    box-shadow: inset -7px -7px #adafbc;
 }
 
 /* OUTPUT CONTENT */
@@ -72,9 +89,10 @@
 .output-text-content {
     border: 2px solid var(--blue-color);
     box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
+    background-color: white;
     width: 500px;
     height: 490px;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .output-text {

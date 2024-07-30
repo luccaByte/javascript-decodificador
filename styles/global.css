@@ -13,13 +13,8 @@
     padding: 0;
 }
 
-/* body {
+body {
     background-image: url(../assets/img/background.jpg);
-} */
-
-.title > h1{
-    display: flex;
-    justify-content: center;
 }
 
 .global-icon {
@@ -31,8 +26,7 @@
 }
 
 .icons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
 }
 
 .fa-x {

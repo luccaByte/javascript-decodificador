@@ -1,0 +1,27 @@
+
+header {
+    border: 2px solid var(--blue-color);
+    box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
+    background-color: white;
+    width: 75%;
+    height: 500px;
+    position: absolute;
+
+    margin: 0 auto;
+}
+
+.title-icon {
+    padding: 20px;
+}
+
+.title {
+    border: 2px solid var(--blue-color);
+    margin: 4px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > h2 {
+    margin-left: 30px;
+}
