@@ -6,8 +6,9 @@
     <title>Decodificador de Texto</title>
     
     <link rel="stylesheet" href="styles/global.css">
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="styles/main.css">
 
+    <script src="js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/81f898d6fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -21,7 +22,7 @@
             <div class="textarea-content">
                 <div class="textarea-title">
                     <div class="global-icon"></div>
-                    <h3>Text Area</h3>
+                    <h3>Decodificar</h3>
 
                     <div class="icons">
                         <p class="minimizar">_</p>
@@ -29,23 +30,41 @@
                         <i class="fa-thin fa-x"></i>
                     </div>
                 </div>
-                <textarea name="input" id="text-input" placeholder="Insira o texto aqui..."></textarea>
-            </div>
-        </section>
 
-        <section>
-            <div class="buttons-content">
-                <button>Criptografar</button>
-                <button>Descriptografar</button>
+                <div class="textarea-input">
+                    <textarea name="input" id="text-input" placeholder="Insira o texto aqui..."></textarea>
+                </div>
+                
+                <div class="buttons-content">
+                    <button>Criptografar</button>
+                    <button>Descriptografar</button>
+                </div>
             </div>
         </section>
 
         <section>
             <div class="output-text-content">
-                <p>exibir texto criptografado</p>
+                <div class="textarea-title">
+                    <div class="global-icon"></div>
+                    <h3>Descriptografar</h3>
+
+                    <div class="icons">
+                        <p class="minimizar">_</p>
+                        <i class="fa-thin fa-square"></i>
+                        <i class="fa-thin fa-x"></i>
+                    </div>
+                </div>
+                
+                <div class="output-text">
+                    <img class="output-img" src="assets/img/pngegg.png" alt="PC pixel">
+
+                    <h1>Nenhuma mensagem encontrada</h1>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
             </div>
         </section>
     </main>
+
     <footer>
         <p>© Lucas T. Gonçalves 2024</p>
     </footer>
