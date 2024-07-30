@@ -9,6 +9,7 @@
 
 .textarea-content {
     border: 2px solid var(--blue-color);
+    box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
     width: 500px;
     height: 490px;
     margin: 2rem;
@@ -70,6 +71,7 @@
 
 .output-text-content {
     border: 2px solid var(--blue-color);
+    box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
     width: 500px;
     height: 490px;
     margin: 2rem;
