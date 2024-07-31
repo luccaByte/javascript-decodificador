@@ -1,8 +1,9 @@
 .main-container {
     width: 90%;
     margin: 0 auto;
+    margin-top: 20px;
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
     justify-content: center;
 
     position: relative;

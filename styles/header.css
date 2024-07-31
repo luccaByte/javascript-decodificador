@@ -7,7 +7,7 @@ header {
     height: 500px;
     position: absolute;
 
-    margin: 0 auto;
+    margin-left: 7%;
 }
 
 .title-icon {
@@ -24,4 +24,26 @@ header {
 
 .title > h2 {
     margin-left: 30px;
+}
+
+.menu-title {
+    border: 2px solid var(--blue-color);
+    height: 25px;
+    margin: 4px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2rem;
+    margin-left: 5px;
+    margin-top: 2px;
+    list-style: none;
+}
+
+#list-selected {
+    background-color: var(--blue-color);
+    color: white;
+    padding: 4px 9px;
+    margin-top: -4px;
+    margin-left: -5px;
 }
