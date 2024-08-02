@@ -1,0 +1,39 @@
+/* RESPONSIVIDADE */
+
+@media (max-width: 1366px) {
+    .main-container {
+        width: 90%;
+        margin-top: 20px;
+        gap: 0.1rem;
+    }
+
+    /* TEXT AREA */
+
+    .textarea-content {
+        height: 70vh;
+    }
+
+    .textarea-input {
+        height: 50vh;
+    }
+
+    #text-input {
+        height: 40vh;
+    }
+
+    /* OUTPUT */
+
+    .output-text-content {
+        height: 70vh;
+    }
+
+    .output-text {
+        height: 54vh;
+    }
+    
+    /* FOOTER */
+
+    .menu-init {
+        margin-top: 2rem;
+    }
+}

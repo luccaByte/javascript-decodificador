@@ -101,14 +101,16 @@
     margin: 4px;
     height: 395px;
     padding: 1.5rem;
+    text-align: center;
 }
 
 .output-img {
     width: 200px;
-    margin-left: 7rem;
     margin-bottom: 2rem;
 }
 
 .output-text > h1 {
     margin-bottom: 2rem;
 }
+
+
