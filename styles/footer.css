@@ -79,5 +79,10 @@ footer {
 .init-datetime {
     border: 1px solid rgba(29, 29, 29, 0.363);
     width: 150px;
-    padding: 8px;
+    padding: 1px;
+    margin-left: auto;
+}
+
+.init-datetime > p {
+    text-align: center;
 }

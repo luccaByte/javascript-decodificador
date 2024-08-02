@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="styles/main.css">
 
     <script src="js/main.js" defer></script>
+    <script src="js/date.js" defer></script>
     <script src="https://kit.fontawesome.com/81f898d6fb.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="time()">
     <header>
         <div class="title">
             <div id="title-icon" class="global-icon"></div>
@@ -104,9 +105,10 @@
                 <p>Decodificador</p>
             </div>
 
-            <!-- <div class="init-datetime">
-
-            </div> -->
+            <div  class="init-datetime">
+                <p id="time"></p>
+                <p id="date"></p>
+            </div>
 
         </div>
     </footer>
