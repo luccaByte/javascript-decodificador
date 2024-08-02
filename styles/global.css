@@ -37,6 +37,12 @@ body {
     padding-right: 3px;
 }
 
+.fa-x:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
 .fa-square {
     border: 1px solid var(--blue-color);
     color: var(--blue-color);
@@ -44,11 +50,20 @@ body {
     padding-left: 3px;
     padding-right: 3.3px;
 }
+.fa-square:hover {
+    cursor: pointer;
+    background-color: rgba(49, 49, 124, 0.151);
+}
 
 .minimizar {
     border: 1px solid var(--blue-color);
     color: var(--blue-color);
     margin: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.minimizar:hover {
+    cursor: pointer;
+    background-color: rgba(49, 49, 124, 0.151);
 }
