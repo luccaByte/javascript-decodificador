@@ -69,7 +69,7 @@
     box-shadow: inset -4px -4px #adafbc;
     cursor: pointer;
     width: 160px;
-    height: 40px;
+    height: 50px;
     margin: 1rem;
     
     font-size: 17px;
@@ -82,7 +82,7 @@
 
 .buttons-content > button:hover {
     background-color: rgb(213, 213, 255);
-    box-shadow: inset -7px -7px #adafbc;
+    box-shadow: inset -6px -6px #adafbc;
 }
 
 /* OUTPUT CONTENT */
