@@ -75,9 +75,13 @@
     font-size: 17px;
 }
 
-#selected {
+#encrypt {
     background-color: var(--blue-color);
     color: white;
+}
+
+#encrypt:hover {
+    background-color: rgb(22, 22, 78)
 }
 
 .buttons-content > button:hover {
