@@ -117,6 +117,10 @@
     height: 395px;
     padding: 1.5rem;
     text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow-y: auto;
 }
 
 .output-img {
@@ -128,4 +132,7 @@
     margin-bottom: 2rem;
 }
 
+#result {
+    font-size: 30px;
+}
 
