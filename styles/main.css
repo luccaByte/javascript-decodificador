@@ -136,3 +136,7 @@
     font-size: 30px;
 }
 
+#output-copy {
+    display: none;
+}
+

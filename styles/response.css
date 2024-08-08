@@ -30,6 +30,10 @@
     .output-text {
         height: 54vh;
     }
+
+    .active {
+        height: 43vh;
+    }
     
     /* FOOTER */
 
