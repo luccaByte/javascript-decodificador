@@ -6,7 +6,7 @@
     }
 
     .output-text {
-        height: 44.5vh;
+        height: 44vh;
     }
 
     .output-text-content {
@@ -56,9 +56,16 @@
     .active {
         height: 43vh;
     }
-    
-    /* FOOTER */
+}
 
+@media (min-height:600px) and (max-height:650px){
+    .textarea-content {
+        height: 70vh;
+    }
+
+    .output-text-content {
+        height: 70vh;
+    }
 }
 
 /* Mobile */
