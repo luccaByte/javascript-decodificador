@@ -22,14 +22,13 @@
     }
 }
 
+/* DESKTOP 1366x768*/
 
 @media (min-width: 1360px) and (max-width: 1600px) {
     .main-container {
         width: 90%;
         gap: 0.1rem;
     }
-
-    /* TEXT AREA */
 
     .textarea-content {
         height: 65vh;
@@ -42,8 +41,6 @@
     #text-input {
         height: 36vh;
     }
-
-    /* OUTPUT */
 
     .output-text-content {
         height: 65vh;
@@ -68,21 +65,61 @@
     }
 }
 
-/* Mobile */
+@media (min-height:700px) and (max-height: 900px) {
+    .textarea-content {
+        height: 62vh;
+    }
 
-@media (min-width: 375px) and (max-width: 412px) {
+    .output-text-content {
+        height: 62vh;
+    }
+
+    .output-text {
+        height: 51vh;
+    }
+
+    .active {
+        height: 43vh;
+    }
+}
+
+/* TABLET */
+
+@media (min-width: 768px) and (max-width: 900px) {
     .main-container {
+        width: 100%;
         flex-direction: column;
+        gap: 2rem;
     }
 
     .textarea-content {
-        width: 360px;
+        margin: 0 auto;
+    }
+
+    .output-text-content {
+        margin: 0 auto;
+    }
+}
+
+
+/* MOBILE */
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .main-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .textarea-content {
+        width: 400px;
         height: 500px;
-        margin: 0.1rem;
+        margin: 0.2rem;
     }
 
     #text-input {
-        width: 290px;
+        width: 85%;
     }
     
     .buttons-content {
@@ -90,9 +127,9 @@
     }
 
     .output-text-content {
-        width: 360px;
+        width: 400px;
         height: 500px;
-        margin: 0.1rem;
+        margin: 0.2rem;
     }
 
     .active {
