@@ -1,6 +1,6 @@
 /* RESPONSIVIDADE */
 
-@media (max-width: 1366px) {
+@media screen and (min-width: 1366px) {
     .main-container {
         width: 90%;
         margin-top: 20px;
@@ -39,5 +39,37 @@
 
     .menu-init {
         margin-top: 2rem;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 412px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .textarea-content {
+        width: 360px;
+        height: 500px;
+        margin: 0.1rem;
+    }
+
+    #text-input {
+        width: 290px;
+    }
+    
+    .buttons-content {
+        width: auto;
+    }
+
+    .output-text-content {
+        width: 360px;
+        height: 500px;
+        margin: 0.1rem;
+    }
+
+    .active {
+        height: 37vh;
     }
 }
