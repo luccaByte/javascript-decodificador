@@ -1,16 +1,38 @@
 /* RESPONSIVIDADE */
 
-@media screen and (min-width: 1366px) {
+@media (min-width: 1920px) {
+    .textarea-content {
+        height: 55vh;
+    }
+
+    .output-text {
+        height: 44.5vh;
+    }
+
+    .output-text-content {
+        height: 55vh;
+    }
+
+    .active {
+        height: 35vh;
+    }
+
+    #output-copy {
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media (min-width: 1360px) and (max-width: 1600px) {
     .main-container {
         width: 90%;
-        margin-top: 20px;
         gap: 0.1rem;
     }
 
     /* TEXT AREA */
 
     .textarea-content {
-        height: 70vh;
+        height: 65vh;
     }
 
     .textarea-input {
@@ -24,11 +46,11 @@
     /* OUTPUT */
 
     .output-text-content {
-        height: 70vh;
+        height: 65vh;
     }
 
     .output-text {
-        height: 54vh;
+        height: 53vh;
     }
 
     .active {
@@ -37,9 +59,6 @@
     
     /* FOOTER */
 
-    .menu-init {
-        margin-top: 2rem;
-    }
 }
 
 /* Mobile */
@@ -71,5 +90,9 @@
 
     .active {
         height: 37vh;
+    }
+
+    footer {
+        top: 4rem;
     }
 }

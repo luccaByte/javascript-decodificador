@@ -15,6 +15,7 @@
 
 body {
     background-image: url(../assets/img/background.jpg);
+    overflow: hidden;
 }
 
 .global-icon {
