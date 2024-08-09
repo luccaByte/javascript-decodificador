@@ -44,7 +44,7 @@
 
 /* Mobile */
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 412px) {
     .main-container {
         flex-direction: column;
     }
