@@ -14,11 +14,11 @@
     }
 
     .textarea-input {
-        height: 46vh;
+        height: 52vh;
     }
 
     #text-input {
-        height: 36vh;
+        height: 44vh;
     }
 
     /* OUTPUT */
@@ -28,11 +28,11 @@
     }
 
     .output-text {
-        height: 54vh;
+        height: 58vh;
     }
 
     .active {
-        height: 43vh;
+        height: 49vh;
     }
     
     /* FOOTER */

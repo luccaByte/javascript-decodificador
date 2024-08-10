@@ -42,7 +42,7 @@
     font-size: 20px;
     margin: 0.5rem;
     width: 430px;
-    height: 300px;
+    height: 290px;
     padding: 20px;
     border-style: dashed;
     outline: none;
@@ -140,3 +140,6 @@
     display: none;
 }
 
+.active {
+    height: 36vh;
+}
