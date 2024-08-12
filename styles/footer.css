@@ -25,6 +25,10 @@ footer {
     gap: 5px;
 }
 
+.init-icon > p {
+    padding: 2px;
+}
+
 .init-icon:hover {
     background-color: rgb(213, 213, 255);
     box-shadow: inset -7px -7px #adafbc;
