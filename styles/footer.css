@@ -11,6 +11,8 @@ footer {
     border: 1px solid rgba(29, 29, 29, 0.363);
 
     display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .init-icon {
@@ -54,8 +56,8 @@ footer {
 }
 
 .github-icon > img {
-    width: 33px;
-    height: 30px;
+    width: 34px;
+    height: 31px;
 }
 
 .linkedin-icon {
@@ -71,7 +73,7 @@ footer {
     padding: 8px;
     text-align: center;
     border: 1px solid rgba(29, 29, 29, 0.363);
-    box-shadow: inset 3px 3px #adafbc;
+    box-shadow: inset 1px 1px #adafbc;
     display: flex;
 }
 
@@ -89,4 +91,13 @@ footer {
 
 .init-datetime > p {
     text-align: center;
+}
+
+.init-copyright {
+    display: flex;
+    align-items: center;
+}
+
+.init-copyright > p {
+    color: #a0a0a7;
 }
