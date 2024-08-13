@@ -2,7 +2,7 @@
 
 @media (min-width: 1920px) {
     .textarea-content {
-        height: 55vh;
+        height: 54vh;
     }
 
     .output-text {
@@ -10,7 +10,7 @@
     }
 
     .output-text-content {
-        height: 55vh;
+        height: 54vh;
     }
 
     .active {
