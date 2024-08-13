@@ -3,7 +3,7 @@ header {
     border: 2px solid var(--blue-color);
     box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.75);
     background-color: white;
-    width: 75%;
+    width: 130vh;
     height: 500px;
     position: absolute;
 

@@ -106,14 +106,21 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
 
+    header {
+        width: 130%;
+        height: 72vh;
+        margin-top: -4.7rem;
+    }
+
     .main-container {
         width: 100%;
         flex-direction: column;
         gap: 2rem;
+        margin-top: 5rem;
     }
 
     .textarea-content {
-        width: 400px;
+        width: 385px;
         height: 500px;
         margin: 0.2rem;
     }
@@ -127,16 +134,27 @@
     }
 
     .output-text-content {
-        width: 400px;
+        width: 385px;
         height: 500px;
         margin: 0.2rem;
     }
 
+    .output-text {
+        height: 49vh;
+    }
+
     .active {
-        height: 37vh;
+        height: 41vh;
     }
 
     footer {
-        top: 4rem;
+        position: sticky;
+        width: 125%;
+        z-index: 1;
     }
+
+    .init-decodif {
+        display: none;
+    }
+
 }
