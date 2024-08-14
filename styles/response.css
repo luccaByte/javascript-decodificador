@@ -61,7 +61,29 @@
     }
 }
 
-@media (min-height:700px) and (max-height: 900px) {
+@media (min-height:600px) and (max-height: 700px) {
+    .textarea-content {
+        height: 70vh;
+    }
+
+    .textarea-input {
+        height: 65%;
+    }
+
+    .output-text-content {
+        height: 70vh;
+    }
+
+    .output-text {
+        height: 80%;
+    }
+
+    .active {
+        height: 62%;
+    }
+}
+
+@media (min-height:700px) and (max-height: 800px) {
     .textarea-content {
         height: 62vh;
     }
@@ -71,11 +93,37 @@
     }
 
     .output-text {
-        height: 50vh;
+        height: 78%;
     }
 
     .active {
-        height: 41vh;
+        height: 63%;
+    }
+}
+
+@media (min-height:800px) and (max-height: 1100px) {
+    .textarea-content {
+        height: 62vh;
+    }
+
+    .textarea-input {
+        height: 75%;
+    }
+
+    #text-input {
+        height: 85%;
+    }
+
+    .output-text-content {
+        height: 62vh;
+    }
+
+    .output-text {
+        height: 82%;
+    }
+
+    .active {
+        height: 70%;
     }
 }
 
