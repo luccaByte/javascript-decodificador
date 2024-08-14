@@ -4,6 +4,7 @@ const btnDecrypt = document.getElementById('decrypt');
 const outputText = document.querySelector('.output-text');
 const outputAlert = document.querySelector('.output-alert');
 const btnOutputCopy = document.getElementById('output-copy');
+const cautionArea = document.querySelector('.textarea-alert');
 
 function encrypt() {
     const textareaValue = textArea.value;
@@ -31,18 +32,46 @@ function decrypt() {
     outputText.innerHTML = `<p id="result">${result}</p>`;
 };
 
-btnEncrypt.addEventListener("click", () => {
+function handleOutput() {
     outputAlert.style.display = "none";
     btnOutputCopy.style.display = "block";
     outputText.classList.add('active');
-    encrypt();
+};
+
+const validation = (result) => {
+    const regex = /^[a-z\s]*$/;
+
+    return regex.test(result);
+};
+
+btnEncrypt.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const result = textArea.value;
+    const isValid = validation(result);
+
+    if (isValid) {
+        handleOutput();
+        encrypt()
+    } else {
+        outputAlert.style.display = "block";
+        alert("isso está inválido amigo");
+    }
 });
 
-btnDecrypt.addEventListener("click", () => {
-    outputAlert.style.display = "none";
-    btnOutputCopy.style.display = "block";
-    outputText.classList.add('active');
-    decrypt();
+btnDecrypt.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const result = textArea.value;
+    const isValid = validation(result);
+
+    if (isValid) {
+        handleOutput();
+        decrypt();
+    } else {
+        outputAlert.style.display = "block";
+        alert("isso está inválido amigo");
+    }
 });
 
 function copy() {
@@ -58,3 +87,4 @@ function copy() {
 }
 
 btnOutputCopy.addEventListener('click', copy);
+
