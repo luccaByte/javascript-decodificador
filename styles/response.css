@@ -30,16 +30,12 @@
         gap: 0.1rem;
     }
 
-    .textarea-content {
-        height: 65vh;
-    }
-
     .textarea-input {
-        height: 52vh;
+        height: 42vh;
     }
 
     #text-input {
-        height: 44vh;
+        height: 34vh;
     }
 
     .output-text-content {
@@ -47,7 +43,7 @@
     }
 
     .output-text {
-        height: 53vh;
+        height: 33vh;
     }
 
     .active {
@@ -75,11 +71,11 @@
     }
 
     .output-text {
-        height: 54vh;
+        height: 50vh;
     }
 
     .active {
-        height: 49vh;
+        height: 41vh;
     }
 }
 

@@ -109,6 +109,8 @@
     width: 500px;
     height: 490px;
     margin: 4rem;
+
+    overflow: hidden;
 }
 
 .output-text {
