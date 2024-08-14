@@ -11,8 +11,7 @@ footer {
     border: 1px solid rgba(29, 29, 29, 0.363);
 
     display: flex;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: stretch;
 }
 
 .init-icon {
@@ -94,10 +93,17 @@ footer {
 }
 
 .init-copyright {
-    display: flex;
-    align-items: center;
+    color: #a0a0a7;
+    margin-top: 0.6rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .init-copyright > p {
     color: #a0a0a7;
+}
+
+span {
+    content: '\\00A9';
 }
