@@ -38,6 +38,12 @@ function handleOutput() {
     outputText.classList.add('active');
 };
 
+function disableOutput() {
+    outputText.classList.remove('active');
+    btnOutputCopy.style.display = 'none';
+    outputAlert.style.display = 'block';
+}
+
 const validation = (result) => {
     const regex = /^[a-z\s]*$/;
 
@@ -46,31 +52,49 @@ const validation = (result) => {
 
 btnEncrypt.addEventListener("click", (e) => {
     e.preventDefault();
+    const result = textArea.value.trim();
 
-    const result = textArea.value;
-    const isValid = validation(result);
-
-    if (isValid) {
-        handleOutput();
-        encrypt()
+    if (result === '') {
+        disableOutput();
+        cautionArea.textContent = 'Campo vazio. Insira o seu texto!';
+        cautionArea.classList.add('blink');
     } else {
-        outputAlert.style.display = "block";
-        alert("isso está inválido amigo");
+        const isValid = validation(result);
+
+        if (isValid) {
+            handleOutput();
+            encrypt();
+            cautionArea.innerHTML = '</br>';
+            cautionArea.classList.remove('blink');
+        } else {
+            outputAlert.style.display = 'block';
+            cautionArea.textContent = 'Escreva somente letras minúsculas e sem acentos!';
+            cautionArea.classList.add('blink');
+        }
     }
 });
 
 btnDecrypt.addEventListener("click", (e) => {
     e.preventDefault();
+    const result = textArea.value.trim();
 
-    const result = textArea.value;
-    const isValid = validation(result);
-
-    if (isValid) {
-        handleOutput();
-        decrypt();
+    if (result === '') {
+        disableOutput();
+        cautionArea.textContent = "Campo vazio. Insira o seu texto!";
+        cautionArea.classList.add('blink');
     } else {
-        outputAlert.style.display = "block";
-        alert("isso está inválido amigo");
+        const isValid = validation(result);
+
+        if (isValid) {
+            handleOutput();
+            encrypt();
+            cautionArea.innerHTML = '</br>';
+            cautionArea.classList.remove('blink');
+        } else {
+            outputAlert.style.display = "block";
+            cautionArea.textContent = "Escreva somente letras minúsculas e sem acentos!";
+            cautionArea.classList.add('blink');
+        }
     }
 });
 
