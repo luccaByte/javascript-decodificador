@@ -68,3 +68,20 @@ body {
     cursor: pointer;
     background-color: rgba(49, 49, 124, 0.151);
 }
+
+.blink {
+    animation: blink 0.7s steps(1, end) infinite;
+    color: rgb(209, 32, 32);
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.6;
+    }
+}

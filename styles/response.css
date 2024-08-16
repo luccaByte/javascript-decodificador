@@ -1,26 +1,5 @@
 /* RESPONSIVIDADE */
 
-@media (min-width: 1920px) {
-    .textarea-content {
-        height: 54vh;
-    }
-
-    .output-text {
-        height: 44vh;
-    }
-
-    .output-text-content {
-        height: 54vh;
-    }
-
-    .active {
-        height: 35vh;
-    }
-
-    #output-copy {
-        margin-top: 1.5rem;
-    }
-}
 
 /* DESKTOP 1366x768*/
 
@@ -144,7 +123,6 @@
         margin: 0 auto;
     }
 }
-
 
 /* MOBILE */
 
