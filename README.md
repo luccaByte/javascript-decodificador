@@ -4,10 +4,10 @@ O JavaScript Decodificador é um aplicativo web simples que permite criptografar
 
 ## 🚀 Funcionalidades
 
-- Criptografia de Texto: Substitui as vogais em uma mensagem de acordo com um padrão específico (por exemplo, 'e' por 'enter').
-- Descriptografia de Texto: Reverte a criptografia aplicada, retornando o texto original.
-- Validação de Entrada: O aplicativo só aceita texto em letras minúsculas e sem acentos.
-- Cópia para Área de Transferência: O usuário pode copiar o resultado da criptografia ou descriptografia para a área de transferência com um clique.
+- **Criptografia de Texto:** Substitui as vogais em uma mensagem de acordo com um padrão específico (por exemplo, 'e' por 'enter').
+- **Descriptografia de Texto:** Reverte a criptografia aplicada, retornando o texto original.
+- **Validação de Entrada:** O aplicativo só aceita texto em letras minúsculas e sem acentos.
+- **Cópia para Área de Transferência:** O usuário pode copiar o resultado da criptografia ou descriptografia para a área de transferência com um clique.
 
 ## 🛠️ Tecnologias Utilizadas
 
