@@ -87,8 +87,8 @@ btnDecrypt.addEventListener("click", (e) => {
 
         if (isValid) {
             handleOutput();
-            encrypt();
-            cautionArea.innerHTML = '</br>';
+            decrypt();
+            cautionArea.innerHTML = '<br />';
             cautionArea.classList.remove('blink');
         } else {
             outputAlert.style.display = "block";
