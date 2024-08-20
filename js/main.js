@@ -17,6 +17,7 @@ function encrypt() {
     .replace(/u/g, 'ufat');
 
     outputText.innerHTML = `<p id="result">${result}</p>`;
+    btnOutputCopy.textContent = 'Copiar';
 };
 
 function decrypt() {
@@ -30,6 +31,7 @@ function decrypt() {
     .replace(/ufat/g, 'u');
 
     outputText.innerHTML = `<p id="result">${result}</p>`;
+    btnOutputCopy.textContent = 'Copiar';
 };
 
 function handleOutput() {
@@ -103,7 +105,7 @@ function copy() {
 
     navigator.clipboard.writeText(resultText)
     .then(() => {
-        alert('Texto copiado para a área de transferência!');
+        btnOutputCopy.textContent = 'Copiado!';
     })
     .catch(err => {
         console.error('Erro ao copiar texto: ', err);
